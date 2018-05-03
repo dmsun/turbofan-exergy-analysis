@@ -223,7 +223,7 @@ def stage_analysis(  bpr = [5, 6, 7],
         LPCR_r.append(LPCR)
         M_r.append(M)
         T_04_r.append(T_04)
-
+        #   draw graphs for last stage
         if i == 99999:
             #station labels list and exergy list for plotting
             stations1= ["Ex_02", "Ex_013", "Ex_023", "Ex_03", "Ex_04", "Ex_045", "Ex_05", "Ex_09"]
